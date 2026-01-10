@@ -47,14 +47,6 @@ body:
       placeholder: working-beginner-octocat
     validations:
       required: true
-  - type: input
-    id: submission-file
-    attributes:
-      label: Submission File Path
-      description: Confirm the file at .github/submissions/[level]-[yourname].md exists.
-      placeholder: .github/submissions/beginner-octocat.md
-    validations:
-      required: true
   - type: checkboxes
     id: confirmations
     attributes:
